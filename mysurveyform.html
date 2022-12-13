@@ -33,11 +33,12 @@
         }
         label{
             display:block;
-            margin-top:15px;
+            margin-top: 10px;
             margin-bottom:5px;
         }
         input{
             width:100%;
+            border-radius:3px;
         }
         textarea,select,input {  
              width: 100%;
@@ -69,15 +70,12 @@
     <h1>freeCodeCamp Survey Form</h1>
     <p>Thank you for taking the time to help us improve the platform</p>
     <form action="">
-      <div>
         <label class="label-group" for="">Name</label>
-      </div>
         <input type="text" placeholder="Enter your name">
         <label for="">Email</label>
         <input type="text" placeholder="enter your email">
         <label for="">Age(optional)</label>
         <input type="text" placeholder="Age">
-        <div>
         <label for="">Which option best describes your current role?</label>
         <select name="" id="">  
             <option value="Select your current role"  disabled selected>Select your current role</option>
@@ -87,13 +85,10 @@
             <option value="Prefer not say">Prefer not say</option>
             <option value="Others">Others</option>
         </select>
-        </div>
-        <div>
         <label for="">Would you recommend freeCodeCamp to a friend?</label>
         <label for="" class="inline"><input type="radio" class="inline"> Definitely</label>
         <label for="" class="inline"><input type="radio" class="inline"> Maybe</label>
         <label for="" class="inline"> <input type="radio" class="inline"> Not sure</label>
-        </div>
         <label for="">What is your favorite feature of freeCodeCamp?</label>
         <select name="" id="">
             <option value="" disabled selected>Select an option</option>
